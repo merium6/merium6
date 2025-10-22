@@ -1,101 +1,126 @@
-<!-- Header -->
-<h1 align="center">✨ Maryam Ali ✨</h1>
-<h3 align="center">Software Engineer | .NET & Full Stack Developer | AI Enthusiast</h3>
+<!-- ====== HEADER ====== -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000428,100:004e92&height=120&section=header&text=Maryam%20Ali&fontColor=ffffff&fontSize=45&fontAlignY=35&animation=fadeIn" />
+
+<h3 align="center" style="font-weight:400;">Software Engineer | .NET & Full Stack Developer | AI Enthusiast</h3>
 
 <p align="center">
-  <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Email-mariymali1623%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-0A66C2?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-181717?style=for-the-badge&logo=github"></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&pause=1000&color=00E6FF&center=true&vCenter=true&width=600&lines=Full+Stack+.NET+Engineer;API+Architect+%26+Backend+Specialist;AI+%2F+ML+Integration+Enthusiast;Building+Secure+%26+Scalable+Apps" />
+  <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-black?style=for-the-badge&logo=github" /></a>
 </p>
 
 ---
 
-### 💡 About Me
+<!-- ====== ABOUT SECTION ====== -->
+### About Me
 
-I’m **Maryam Ali**, a passionate **Software Engineer** who builds reliable, secure, and scalable digital systems.  
-I love merging the precision of **.NET backend engineering** with the creativity of **modern frontend design**.
+I’m a **Software Engineer** passionate about creating **scalable, secure, and intelligent web systems**.  
+My expertise lies in **.NET, C#, and API engineering**, with strong command of modern database systems and frontend technologies.  
+I combine **engineering precision** with **design intuition**, building digital products that are both robust and beautiful.
 
-🔹 Specializing in **ASP.NET Core**, **C#**, and **RESTful API architecture**  
-🔹 Skilled in **SQL Server**, **PostgreSQL**, and **Entity Framework Core**  
-🔹 Curious about **Blazor**, **React**, and **AI-powered web apps**  
-🔹 Advocate of **clean code**, **SOLID principles**, and **design clarity**
-
-> _“Code isn’t just logic — it’s an experience.”_
-
----
-
-### 🧠 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet,cs,react,angular,html,css,jquery,postgresql,mysql,azure,docker,git,github,postman,visualstudio,vscode" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Architecture-Clean%20%26%20Modular-blueviolet?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-API%20Security%20%26%20Performance-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Goal-Build%20Future-Ready%20Apps-success?style=for-the-badge">
-</p>
+- Specialized in **.NET Core, ASP.NET MVC, C#, SQL Server, PostgreSQL**  
+- Experience with **React, Blazor, Angular, Razor Views**  
+- Focused on **Clean Architecture, Security, and Performance**  
+- Enthusiastic about **AI, automation, and next-gen web platforms**
 
 ---
 
-### 🚀 Professional Experience
+<!-- ====== TECH STACK ====== -->
+### Tech Stack
 
-#### 🧩 **Software Engineer – Invobyte**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=dotnet,cs,react,angular,html,css,jquery,postgresql,mysql,azure,docker,git,github,postman,visualstudio,vscode&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frameworks-.NET%20Core%20%7C%20ASP.NET%20MVC-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Clean%20Architecture%20%7C%20APIs%20%26%20AI-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tools-GitHub%20%7C%20Docker%20%7C%20Azure-lightblue?style=for-the-badge" />
+</p>
+
+---
+
+<!-- ====== EXPERIENCE ====== -->
+### Professional Experience
+
+**Software Engineer – Invobyte**  
 *May 2025 – Present | Lahore, Pakistan*  
-**Central Identity Management System (CIMS)** — enterprise identity & access management platform.  
-- Designed **JWT authentication & OAuth2/OIDC integration** (.NET 9)  
-- Implemented **RBAC/ABAC** for granular authorization  
-- Followed **Clean Architecture** and modular design patterns  
+Identity & Access Management System using **.NET 9**, **OAuth 2.0**, and **OpenID Connect**.  
+- Designed **JWT-based security** and **modular authentication services**  
+- Implemented **RBAC/ABAC** for granular access control  
+- Developed a **clean, layered architecture** for scalability
 
-#### ⚙️ **Associate Software Engineer – Phenologix**
+**Associate Software Engineer – Phenologix**  
 *Oct 2024 – Apr 2025 | Lahore, Pakistan*  
-- Built and optimized **RESTful APIs** (ASP.NET Core 6–8)  
-- Integrated **JWT + cookie authentication**  
-- Designed database models for **SQL Server** & **MySQL**  
-- Contributed to **microservices** and **Razor UI** features  
+- Built and maintained **RESTful APIs** (.NET 6–8)  
+- Designed **SQL Server / MySQL** databases for optimized performance  
+- Enhanced **Razor UI components** and integrated **jQuery & AJAX**  
 
-#### 💼 **Associate Software Engineer – Ammag IT Solutions**
+**Associate Software Engineer – Ammag IT Solutions**  
 *Jun 2024 – Sep 2024*  
-- Enhanced API performance for **Sorrow Place** project  
-- Documented endpoints using **Swagger**  
-- Improved backend with **PostgreSQL** & **SQL Server**
+- Enhanced **backend APIs** and optimized database queries  
+- Created **API documentation** using Swagger  
+- Maintained **PostgreSQL & SQL Server** data layers  
 
 ---
 
-### 🧩 Featured Projects
+<!-- ====== PROJECT SHOWCASE ====== -->
+### Featured Projects
 
-| ⚙️ Project | 💬 Description | 🧠 Stack |
-|-------------|----------------|----------|
-| **CIMS** | Centralized identity & access control system with OAuth 2.0 / OIDC | .NET 9, EF Core, SQL Server |
-| **RentCheck** | Property Management SaaS with workflow automation | ASP.NET Core, Razor, SQL Server |
-| **Axes Law** | Legal case platform — backend optimization & analytics | ASP.NET MVC, jQuery, MySQL |
-| **ML.NET Integration** | AI-powered insights prototype for business data | C#, ML.NET, Python |
+<div align="center">
 
----
+<table>
+<tr>
+<td width="50%" align="center">
+  
+#### 🧩 Central Identity Management System (CIMS)
+Secure enterprise IAM platform implementing **OAuth 2.0**, **OIDC**, and **JWT Authentication**.  
+**Stack:** .NET 9, EF Core, SQL Server  
+⭐ *Scalable, secure, and modular identity framework.*
 
+</td>
+<td width="50%" align="center">
 
-### 🏆 Highlights
+#### ⚙️ RentCheck
+Real Estate SaaS platform managing listings, workflows, and analytics dashboards.  
+**Stack:** ASP.NET Core, Razor, SQL Server  
+⭐ *End-to-end full-stack development and optimization.*
 
-- 🧠 Designed **enterprise-grade authentication systems**  
-- 🔐 Implemented **secure token-based access**  
-- ⚙️ Delivered **20+ backend features** in production systems  
-- 💡 Integrated **ML.NET** models in real apps  
-- 🧩 Advocate of **SOLID**, **Clean Architecture**, and **Testing Culture**
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" align="center">
 
-### 🌐 Connect with Me
+#### 💼 Axes Law
+Legal services platform automating case workflows & analytics.  
+**Stack:** ASP.NET MVC, MySQL, jQuery  
+⭐ *Optimized data models and improved performance by 30%.*
+
+</td>
+<td width="50%" align="center">
+
+#### 🤖 ML.NET Integration
+Prototype integrating **AI/ML models** for data prediction & insights.  
+**Stack:** C#, ML.NET, Python  
+⭐ *Bringing intelligence to traditional .NET applications.*
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<!-- ====== CONTACT ====== -->
+### Connect with Me
 
 <p align="center">
-  <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail"></a>
-  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-0077B5?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-181717?style=for-the-badge&logo=github"></a>
+  <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Gmail-mariymali1623%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-0077B5?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-181717?style=for-the-badge&logo=github" /></a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00E6FF&center=true&vCenter=true&width=600&lines=Let's+build+the+future+together+💫;Collaboration+%7C+Innovation+%7C+Code+❤️">
-</p>
+---
+
+<!-- ====== FOOTER ====== -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:004e92,100:000428&height=80&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=ffffff&fontSize=20&animation=fadeIn" />
