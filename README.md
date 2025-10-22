@@ -1,8 +1,13 @@
-<!-- ====== HEADER ====== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000428,100:004e92&height=120&section=header&text=Maryam%20Ali&fontColor=ffffff&fontSize=45&fontAlignY=35&animation=fadeIn" />
+<!-- ====== ANIMATED HEADER ====== -->
+<!-- Gradient wave background -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:2b5876&height=160&section=header&text=Maryam%20Ali&fontColor=ffffff&fontSize=45&fontAlignY=35&animation=twinkling" />
 
-<h3 align="center" style="font-weight:400;">Software Engineer | .NET & Full Stack Developer | AI Enthusiast</h3>
+<!-- Subtitle with typing animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=4000&pause=1000&color=00E6FF&center=true&vCenter=true&width=750&lines=Software+Engineer+%7C+.NET+%26+Full+Stack+Developer;AI+%26+Innovation+Enthusiast;Building+Scalable+and+Intelligent+Systems" alt="Maryam Ali animated headline" />
+</p>
 
+<!-- Contact badges -->
 <p align="center">
   <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-blue?style=for-the-badge&logo=linkedin" /></a>
