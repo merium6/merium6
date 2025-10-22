@@ -19,7 +19,7 @@
 ### About Me
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="550" alt="Coding animation">
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif " width="550" alt="Coding animation">
 </p>
 
 I’m a **Software Engineer** passionate about creating **scalable, secure, and intelligent web systems**.  
