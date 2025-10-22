@@ -46,8 +46,13 @@ I combine **engineering precision** with **design intuition**, building digital 
   <img src="https://skillicons.dev/icons?i=dotnet,cs,react,angular,html,css,jquery,postgresql,mysql,azure,docker,git,github,postman,visualstudio,vscode&theme=dark" />
 </p>
 
+---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="60%" />
+</p>
 
+---
 <!-- ====== EXPERIENCE ====== -->
 ### Professional Experience
 
