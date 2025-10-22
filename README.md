@@ -133,4 +133,5 @@ Identity & Access Management System using **.NET 9**, **OAuth 2.0**, and **OpenI
 ---
 
 <!-- ====== FOOTER ====== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000428,100:001F54&height=80&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=E0E0E0&fontSize=20&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:001F54&height=140&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=E0E0E0&fontSize=22&fontAlignY=40&animation=twinkling" />
+
