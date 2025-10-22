@@ -46,19 +46,7 @@ I combine **engineering precision** with **design intuition**, building digital 
   <img src="https://skillicons.dev/icons?i=dotnet,cs,react,angular,html,css,jquery,postgresql,mysql,azure,docker,git,github,postman,visualstudio,vscode&theme=dark" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frameworks-.NET%20Core%20%7C%20ASP.NET%20MVC-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Clean%20Architecture%20%7C%20APIs%20%26%20AI-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tools-GitHub%20%7C%20Docker%20%7C%20Azure-lightblue?style=for-the-badge" />
-</p>
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="60%" />
-</p>
-
----
 
 <!-- ====== EXPERIENCE ====== -->
 ### Professional Experience
