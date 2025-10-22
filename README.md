@@ -19,7 +19,7 @@
 ### About Me
 
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cjZyMms3dWJkNzNydmgwMmhkc2J0OGc5N2ZvNXI4bXR1aHVrdDdxNSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/hpXdHPfFI5wTABdDx9/200.webp" width="550" alt="Coding animation">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGN3NWd3Nnhqb2s2ZWNob3djdDZhNGo3enBrNnc3YW9qb24xZHdreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26vACLXgansDXwHzzI/giphy.gif" width="550" alt="Coding animation">
 </p>
 
 I’m a **Software Engineer** passionate about creating **scalable, secure, and intelligent web systems**.  
