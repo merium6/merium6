@@ -9,10 +9,18 @@
   <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-black?style=for-the-badge&logo=github" /></a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&pause=1000&color=00E6FF&center=true&vCenter=true&width=600&lines=Full+Stack+.NET+Engineer;API+Architect+and+Backend+Specialist;Building+Secure+and+Scalable+Apps" />
+</p>
+
 ---
 
-<!-- ====== ABOUT SECTION ====== -->
+<!-- ====== ABOUT ====== -->
 ### About Me
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="550" alt="Coding animation">
+</p>
 
 I’m a **Software Engineer** passionate about creating **scalable, secure, and intelligent web systems**.  
 My expertise lies in **.NET, C#, and API engineering**, with strong command of modern database systems and frontend technologies.  
@@ -22,6 +30,12 @@ I combine **engineering precision** with **design intuition**, building digital 
 - Experience with **React, Blazor, Angular, Razor Views**  
 - Focused on **Clean Architecture, Security, and Performance**  
 - Enthusiastic about **AI, automation, and next-gen web platforms**
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="60%" />
+</p>
 
 ---
 
@@ -36,6 +50,12 @@ I combine **engineering precision** with **design intuition**, building digital 
   <img src="https://img.shields.io/badge/Frameworks-.NET%20Core%20%7C%20ASP.NET%20MVC-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Clean%20Architecture%20%7C%20APIs%20%26%20AI-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tools-GitHub%20%7C%20Docker%20%7C%20Azure-lightblue?style=for-the-badge" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="60%" />
 </p>
 
 ---
@@ -72,19 +92,19 @@ Identity & Access Management System using **.NET 9**, **OAuth 2.0**, and **OpenI
 <table>
 <tr>
 <td width="50%" align="center">
-  
-#### 🧩 Central Identity Management System (CIMS)
-Secure enterprise IAM platform implementing **OAuth 2.0**, **OIDC**, and **JWT Authentication**.  
-**Stack:** .NET 9, EF Core, SQL Server  
-⭐ *Scalable, secure, and modular identity framework.*
+
+<h4>CIMS – Central Identity Management System</h4>
+<p>Enterprise IAM solution implementing OAuth 2.0 / OIDC / JWT Authentication.</p>
+<b>Stack:</b> .NET 9, EF Core, SQL Server  
+<br>⭐ <i>Scalable, secure, and modular identity framework.</i>
 
 </td>
 <td width="50%" align="center">
 
-#### ⚙️ RentCheck
-Real Estate SaaS platform managing listings, workflows, and analytics dashboards.  
-**Stack:** ASP.NET Core, Razor, SQL Server  
-⭐ *End-to-end full-stack development and optimization.*
+<h4>RentCheck</h4>
+<p>Real Estate SaaS for listings, workflows, and analytics dashboards.</p>
+<b>Stack:</b> ASP.NET Core, Razor, SQL Server  
+<br>⭐ <i>End-to-end full-stack development and optimization.</i>
 
 </td>
 </tr>
@@ -92,24 +112,26 @@ Real Estate SaaS platform managing listings, workflows, and analytics dashboards
 <tr>
 <td width="50%" align="center">
 
-#### 💼 Axes Law
-Legal services platform automating case workflows & analytics.  
-**Stack:** ASP.NET MVC, MySQL, jQuery  
-⭐ *Optimized data models and improved performance by 30%.*
+<h4>Axes Law</h4>
+<p>Legal services automation platform for case workflows and analytics.</p>
+<b>Stack:</b> ASP.NET MVC, MySQL, jQuery  
+<br>⭐ <i>Optimized performance and reduced load time by 30%.</i>
 
 </td>
 <td width="50%" align="center">
 
-#### 🤖 ML.NET Integration
-Prototype integrating **AI/ML models** for data prediction & insights.  
-**Stack:** C#, ML.NET, Python  
-⭐ *Bringing intelligence to traditional .NET applications.*
+<h4>ML.NET Integration</h4>
+<p>Prototype integrating AI/ML models for predictive analytics.</p>
+<b>Stack:</b> C#, ML.NET, Python  
+<br>⭐ <i>Bringing intelligence to traditional .NET applications.</i>
 
 </td>
 </tr>
 </table>
 
 </div>
+
+---
 
 <!-- ====== CONTACT ====== -->
 ### Connect with Me
@@ -123,4 +145,4 @@ Prototype integrating **AI/ML models** for data prediction & insights.
 ---
 
 <!-- ====== FOOTER ====== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:004e92,100:000428&height=80&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=ffffff&fontSize=20&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:004e92,100:000428&height=80&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=ffffff&fontSize=20&animation=twinkling" />
