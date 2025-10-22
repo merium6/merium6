@@ -132,16 +132,5 @@ Identity & Access Management System using **.NET 9**, **OAuth 2.0**, and **OpenI
 
 ---
 
-<!-- ====== CONTACT ====== -->
-### Connect with Me
-
-<p align="center">
-  <a href="mailto:mariymali1623@gmail.com"><img src="https://img.shields.io/badge/Gmail-mariymali1623%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-0077B5?style=for-the-badge&logo=linkedin" /></a>
-  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-181717?style=for-the-badge&logo=github" /></a>
-</p>
-
----
-
 <!-- ====== FOOTER ====== -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000428,100:001F54&height=80&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=E0E0E0&fontSize=20&animation=twinkling" />
