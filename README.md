@@ -1,286 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Maryam Ali – Software Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<style>
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{font-family:'DM Sans',sans-serif;background:#030a1a;color:#c9d8f0;padding:0 0 60px;}
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:001F54&height=160&section=header&text=Maryam%20Ali&fontColor=E0E0E0&fontSize=45&fontAlignY=35&animation=twinkling" />
 
-  /* HERO */
-  .hero{position:relative;text-align:center;padding:60px 24px 48px;background:linear-gradient(180deg,#000d2e 0%,#030a1a 100%);border-bottom:1px solid rgba(0,140,255,0.15);overflow:hidden;}
-  .hero::before{content:'';position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:400px;background:radial-gradient(ellipse,rgba(0,100,255,0.12) 0%,transparent 70%);pointer-events:none;}
-  .grid-bg{position:absolute;inset:0;opacity:0.05;background-image:linear-gradient(rgba(0,140,255,0.8) 1px,transparent 1px),linear-gradient(90deg,rgba(0,140,255,0.8) 1px,transparent 1px);background-size:40px 40px;}
-  .avatar{display:inline-flex;align-items:center;justify-content:center;width:90px;height:90px;border-radius:50%;background:linear-gradient(135deg,#0050cc,#00bfff);margin-bottom:20px;box-shadow:0 0 0 4px rgba(0,140,255,0.15),0 0 30px rgba(0,140,255,0.25);font-family:'Space Mono',monospace;font-size:28px;font-weight:700;color:#fff;position:relative;z-index:1;}
-  .hero-name{font-family:'Space Mono',monospace;font-size:38px;font-weight:700;color:#fff;letter-spacing:-1px;position:relative;z-index:1;margin-bottom:8px;}
-  .hero-name span{color:#00bfff;}
-  .hero-title{font-size:13px;font-weight:400;letter-spacing:3px;color:#5b8fc9;text-transform:uppercase;position:relative;z-index:1;margin-bottom:6px;}
-  .hero-meta{font-size:13px;color:#3a6090;position:relative;z-index:1;margin-bottom:26px;}
-  .badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;}
-  .badge{display:inline-flex;align-items:center;gap:6px;padding:7px 16px;border-radius:24px;font-size:12px;font-weight:500;background:rgba(0,100,255,0.1);border:1px solid rgba(0,140,255,0.25);color:#7dc4f5;text-decoration:none;transition:background 0.2s;}
-  .badge:hover{background:rgba(0,140,255,0.2);}
-  .badge-dot{width:6px;height:6px;border-radius:50%;background:#00bfff;}
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=4000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Software+Engineer+%7C+.NET+%26+Full+Stack+Developer;AI+%26+Automation+Enthusiast;Building+Secure+and+Scalable+Systems" alt="Typing SVG" />
+</p>
 
-  /* SECTIONS */
-  .section{max-width:820px;margin:0 auto;padding:40px 24px 0;}
-  .section-label{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;color:#0077cc;text-transform:uppercase;margin-bottom:6px;}
-  .section-title{font-size:22px;font-weight:600;color:#e0eeff;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid rgba(0,100,255,0.15);}
-  .divider{height:1px;background:rgba(0,80,200,0.1);margin:40px auto 0;max-width:820px;}
+<p align="center">
+  <a href="mailto:marium.ali1623@gmail.com"><img src="https://img.shields.io/badge/Email-marium.ali1623%40gmail.com-003366?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/maryamali-softwarengineer/"><img src="https://img.shields.io/badge/LinkedIn-Maryam%20Ali-001F54?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+  <a href="https://github.com/merium6"><img src="https://img.shields.io/badge/GitHub-merium6-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-  /* ABOUT */
-  .about-text{font-size:15px;line-height:1.85;color:#8aadd4;}
-  .about-text strong{color:#c9d8f0;font-weight:600;}
+---
 
-  /* SKILLS */
-  .sk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
-  .sk-card{background:rgba(0,15,50,0.6);border:1px solid rgba(0,80,180,0.2);border-radius:10px;padding:16px;transition:border-color 0.2s;}
-  .sk-card:hover{border-color:rgba(0,150,255,0.3);}
-  .sk-cat{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px;color:#0088dd;text-transform:uppercase;margin-bottom:10px;}
-  .sk-tags{display:flex;flex-wrap:wrap;gap:6px;}
-  .sk-tag{font-size:11px;font-weight:500;padding:4px 9px;border-radius:5px;background:rgba(0,50,120,0.5);border:1px solid rgba(0,100,200,0.25);color:#6aa8e0;}
+## 👩‍💻 About Me
 
-  /* PROJECTS */
-  .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px;}
-  .proj-card{background:rgba(0,15,45,0.7);border:1px solid rgba(0,80,180,0.2);border-radius:12px;padding:20px;transition:border-color 0.2s,transform 0.2s;}
-  .proj-card:hover{border-color:rgba(0,150,255,0.35);transform:translateY(-2px);}
-  .proj-icon{width:36px;height:36px;border-radius:8px;background:rgba(0,100,200,0.15);border:1px solid rgba(0,100,200,0.3);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px;}
-  .proj-title{font-size:15px;font-weight:600;color:#d0e4ff;margin-bottom:6px;}
-  .proj-desc{font-size:13px;color:#6a8fb8;line-height:1.6;margin-bottom:14px;}
-  .proj-tags{display:flex;flex-wrap:wrap;gap:6px;}
-  .proj-tag{font-family:'Space Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;background:rgba(0,60,140,0.4);border:1px solid rgba(0,100,200,0.25);color:#4a8ec4;}
+Full Stack Developer with experience building **scalable web applications**, **secure RESTful APIs**, and **AI-powered solutions** using MERN Stack, ASP.NET Core, C#, React.js, Next.js, and Node.js.
 
-  /* EDUCATION */
-  .edu-card{background:rgba(0,15,50,0.6);border:1px solid rgba(0,80,180,0.2);border-radius:12px;padding:20px 24px;display:flex;align-items:center;gap:20px;}
-  .edu-icon{width:48px;height:48px;border-radius:10px;background:rgba(0,100,200,0.15);border:1px solid rgba(0,100,200,0.3);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;}
-  .edu-degree{font-size:15px;font-weight:600;color:#d0e4ff;}
-  .edu-uni{font-family:'Space Mono',monospace;font-size:12px;color:#00bfff;margin:2px 0;}
-  .edu-date{font-size:12px;color:#3a6090;}
+Skilled in **Microservices, Entity Framework Core, JWT Authentication, RabbitMQ**, and AI integrations including **OpenAI APIs, chatbots, TTS, and automation workflows**.
 
-  /* FOOTER */
-  .footer{margin-top:56px;text-align:center;padding:28px;border-top:1px solid rgba(0,80,180,0.15);font-family:'Space Mono',monospace;font-size:12px;color:#2a4870;letter-spacing:1px;}
-  .footer span{color:#0077cc;}
-</style>
-</head>
-<body>
+Strong focus on **clean architecture**, **performance**, and **scalable system design**.
 
-<!-- HERO -->
-<div class="hero">
-  <div class="grid-bg"></div>
-  <div class="avatar">MA</div>
-  <h1 class="hero-name">Maryam <span>Ali</span></h1>
-  <p class="hero-title">Software Engineer &nbsp;·&nbsp; .NET &amp; Full Stack Developer</p>
-  <p class="hero-meta">📍 Lahore, Pakistan &nbsp;·&nbsp; marium.ali1623@gmail.com &nbsp;·&nbsp; 03008816146</p>
-  <div class="badges">
-    <a href="mailto:marium.ali1623@gmail.com" class="badge"><span class="badge-dot"></span>Email</a>
-    <a href="https://www.linkedin.com/in/maryamali-softwarengineer/" class="badge"><span class="badge-dot"></span>LinkedIn</a>
-    <a href="https://github.com/merium6" class="badge"><span class="badge-dot"></span>GitHub</a>
-  </div>
-</div>
+---
 
-<!-- ABOUT -->
-<div class="section">
-  <p class="section-label">// about</p>
-  <h2 class="section-title">Professional Summary</h2>
-  <p class="about-text">
-    Full Stack Developer with experience building <strong>scalable web applications</strong>, <strong>secure RESTful APIs</strong>, and <strong>AI-powered solutions</strong> using MERN Stack, ASP.NET Core, C#, React.js, Next.js, and Node.js. Skilled in <strong>Microservices, Entity Framework Core, JWT Authentication, RabbitMQ</strong>, and AI integrations including <strong>OpenAI APIs, chatbots, TTS, and automation workflows</strong>. Strong focus on clean architecture, performance, and scalable system design.
-  </p>
-</div>
+## 🛠 Tech Stack
 
-<div class="divider"></div>
+### Backend
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
+![Dapper](https://img.shields.io/badge/Dapper-003366?style=flat-square)
 
-<!-- SKILLS -->
-<div class="section">
-  <p class="section-label">// stack</p>
-  <h2 class="section-title">Technical Skills</h2>
-  <div class="sk-grid">
+### Frontend
+![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
-    <div class="sk-card">
-      <div class="sk-cat">⚙ Backend</div>
-      <div class="sk-tags">
-        <span class="sk-tag">ASP.NET Core</span>
-        <span class="sk-tag">ASP.NET MVC</span>
-        <span class="sk-tag">C#</span>
-        <span class="sk-tag">Web API</span>
-        <span class="sk-tag">REST APIs</span>
-        <span class="sk-tag">EF Core</span>
-        <span class="sk-tag">LINQ</span>
-        <span class="sk-tag">Razor Pages</span>
-        <span class="sk-tag">Node.js</span>
-        <span class="sk-tag">Dapper</span>
-      </div>
-    </div>
+### Databases
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-    <div class="sk-card">
-      <div class="sk-cat">🖥 Frontend</div>
-      <div class="sk-tags">
-        <span class="sk-tag">React.js</span>
-        <span class="sk-tag">Next.js</span>
-        <span class="sk-tag">JavaScript</span>
-        <span class="sk-tag">TypeScript</span>
-        <span class="sk-tag">jQuery</span>
-        <span class="sk-tag">AJAX</span>
-        <span class="sk-tag">HTML5</span>
-        <span class="sk-tag">CSS3</span>
-        <span class="sk-tag">Razor UI</span>
-      </div>
-    </div>
+### AI & Automation
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Chatbots](https://img.shields.io/badge/AI_Chatbots-00BFFF?style=flat-square)
+![TTS](https://img.shields.io/badge/TTS_/_STT-005571?style=flat-square)
+![Automation](https://img.shields.io/badge/AI_Automation-6A0DAD?style=flat-square)
 
-    <div class="sk-card">
-      <div class="sk-cat">🗄 Databases</div>
-      <div class="sk-tags">
-        <span class="sk-tag">SQL Server</span>
-        <span class="sk-tag">PostgreSQL</span>
-        <span class="sk-tag">MySQL</span>
-        <span class="sk-tag">MongoDB</span>
-        <span class="sk-tag">Firebase</span>
-      </div>
-    </div>
+### Messaging & Background Jobs
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![MassTransit](https://img.shields.io/badge/MassTransit-003366?style=flat-square)
+![Hangfire](https://img.shields.io/badge/Hangfire-005571?style=flat-square)
+![Event Driven](https://img.shields.io/badge/Event--Driven_Architecture-444?style=flat-square)
 
-    <div class="sk-card">
-      <div class="sk-cat">🤖 AI &amp; Automation</div>
-      <div class="sk-tags">
-        <span class="sk-tag">OpenAI API</span>
-        <span class="sk-tag">AI Chatbots</span>
-        <span class="sk-tag">TTS</span>
-        <span class="sk-tag">STT</span>
-        <span class="sk-tag">AI Automation</span>
-      </div>
-    </div>
+### Auth & Security
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth-EB5424?style=flat-square&logo=auth0&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square)
+![RBAC](https://img.shields.io/badge/RBAC-003366?style=flat-square)
 
-    <div class="sk-card">
-      <div class="sk-cat">📨 Messaging</div>
-      <div class="sk-tags">
-        <span class="sk-tag">RabbitMQ</span>
-        <span class="sk-tag">MassTransit</span>
-        <span class="sk-tag">Hangfire</span>
-        <span class="sk-tag">Worker Services</span>
-        <span class="sk-tag">Event-Driven</span>
-      </div>
-    </div>
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-    <div class="sk-card">
-      <div class="sk-cat">🔐 Auth &amp; Security</div>
-      <div class="sk-tags">
-        <span class="sk-tag">JWT</span>
-        <span class="sk-tag">OAuth</span>
-        <span class="sk-tag">ASP.NET Identity</span>
-        <span class="sk-tag">RBAC</span>
-        <span class="sk-tag">Keycloak</span>
-      </div>
-    </div>
+---
 
-    <div class="sk-card">
-      <div class="sk-cat">🏗 Architecture</div>
-      <div class="sk-tags">
-        <span class="sk-tag">Clean Architecture</span>
-        <span class="sk-tag">Microservices</span>
-        <span class="sk-tag">Repository Pattern</span>
-        <span class="sk-tag">MVC</span>
-        <span class="sk-tag">Multi-Tenant</span>
-        <span class="sk-tag">Layered Architecture</span>
-      </div>
-    </div>
+## 🚀 Featured Projects
 
-    <div class="sk-card">
-      <div class="sk-cat">🛠 Tools &amp; Platforms</div>
-      <div class="sk-tags">
-        <span class="sk-tag">Git</span>
-        <span class="sk-tag">GitHub</span>
-        <span class="sk-tag">GitLab</span>
-        <span class="sk-tag">Azure DevOps</span>
-        <span class="sk-tag">Docker</span>
-        <span class="sk-tag">Postman</span>
-        <span class="sk-tag">Swagger</span>
-        <span class="sk-tag">VS Code</span>
-        <span class="sk-tag">Visual Studio</span>
-      </div>
-    </div>
+### 🔌 Microsoft Dynamics 365 CRM Integration
+> Secure RESTful APIs for enterprise CRM integration with JWT auth, RBAC, and full Swagger/OpenAPI documentation.
 
-  </div>
-</div>
+`ASP.NET Core` `C#` `SQL Server` `JWT` `Swagger`
 
-<div class="divider"></div>
+---
 
-<!-- PROJECTS -->
-<div class="section">
-  <p class="section-label">// projects</p>
-  <h2 class="section-title">Featured Projects</h2>
-  <div class="proj-grid">
+### 🏥 Healthcare Workflow System
+> Multi-tenant enterprise healthcare platform with async messaging via RabbitMQ/MassTransit and dynamic data import/export.
 
-    <div class="proj-card">
-      <div class="proj-icon">🔌</div>
-      <div class="proj-title">Microsoft Dynamics 365 CRM Integration</div>
-      <div class="proj-desc">Secure RESTful APIs for enterprise CRM integration with JWT authentication, RBAC, and full Swagger/OpenAPI documentation.</div>
-      <div class="proj-tags">
-        <span class="proj-tag">ASP.NET Core</span>
-        <span class="proj-tag">C#</span>
-        <span class="proj-tag">SQL Server</span>
-        <span class="proj-tag">JWT</span>
-      </div>
-    </div>
+`ASP.NET Core` `RabbitMQ` `MassTransit` `PostgreSQL` `EF Core`
 
-    <div class="proj-card">
-      <div class="proj-icon">🏥</div>
-      <div class="proj-title">Healthcare Workflow System</div>
-      <div class="proj-desc">Multi-tenant enterprise healthcare platform with async messaging via RabbitMQ/MassTransit and dynamic data import/export modules.</div>
-      <div class="proj-tags">
-        <span class="proj-tag">ASP.NET Core</span>
-        <span class="proj-tag">RabbitMQ</span>
-        <span class="proj-tag">PostgreSQL</span>
-        <span class="proj-tag">EF Core</span>
-      </div>
-    </div>
+---
 
-    <div class="proj-card">
-      <div class="proj-icon">🏢</div>
-      <div class="proj-title">Property Management &amp; Booking System</div>
-      <div class="proj-desc">Full-stack property management platform with booking APIs, Hangfire background jobs, and highly optimized database queries.</div>
-      <div class="proj-tags">
-        <span class="proj-tag">ASP.NET Core</span>
-        <span class="proj-tag">Razor</span>
-        <span class="proj-tag">Hangfire</span>
-        <span class="proj-tag">SQL Server</span>
-      </div>
-    </div>
+### 🏢 Property Management & Booking System
+> Full-stack property platform with booking APIs, Hangfire background jobs, and optimized database queries.
 
-    <div class="proj-card">
-      <div class="proj-icon">🤖</div>
-      <div class="proj-title">AI-Powered Automation</div>
-      <div class="proj-desc">OpenAI API integrations including chatbots, Text-to-Speech, Speech-to-Text, and intelligent automation workflows.</div>
-      <div class="proj-tags">
-        <span class="proj-tag">OpenAI API</span>
-        <span class="proj-tag">C#</span>
-        <span class="proj-tag">Node.js</span>
-        <span class="proj-tag">React.js</span>
-      </div>
-    </div>
+`ASP.NET Core` `Razor` `Hangfire` `SQL Server` `jQuery`
 
-  </div>
-</div>
+---
 
-<div class="divider"></div>
+### 🤖 AI-Powered Automation
+> OpenAI API integrations — chatbots, Text-to-Speech, Speech-to-Text, and intelligent automation workflows.
 
-<!-- EDUCATION -->
-<div class="section">
-  <p class="section-label">// education</p>
-  <h2 class="section-title">Education</h2>
-  <div class="edu-card">
-    <div class="edu-icon">🎓</div>
-    <div>
-      <div class="edu-degree">BS Software Engineering</div>
-      <div class="edu-uni">University of the Punjab</div>
-      <div class="edu-date">Oct 2020 – Jul 2024 &nbsp;·&nbsp; Lahore, Pakistan</div>
-    </div>
-  </div>
-</div>
+`OpenAI API` `C#` `Node.js` `React.js`
 
-<!-- FOOTER -->
-<div class="footer">
-  <span>// let's build the future of code</span>&nbsp;&nbsp;·&nbsp;&nbsp;marium.ali1623@gmail.com
-</div>
+---
 
-</body>
-</html>
+## 🎓 Education
+
+**BS Software Engineering** — University of the Punjab, Lahore
+`Oct 2020 – Jul 2024`
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=merium6&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030a1a&title_color=00bfff&icon_color=00bfff&text_color=c9d8f0" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=merium6&layout=compact&theme=tokyonight&hide_border=true&bg_color=030a1a&title_color=00bfff&text_color=c9d8f0" height="165" />
+</p>
+
+---
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:001F54&height=120&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=E0E0E0&fontSize=20&fontAlignY=40&animation=twinkling" />
