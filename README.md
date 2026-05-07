@@ -113,13 +113,4 @@ Strong focus on **clean architecture**, **performance**, and **scalable system d
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=merium6&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030a1a&title_color=00bfff&icon_color=00bfff&text_color=c9d8f0" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=merium6&layout=compact&theme=tokyonight&hide_border=true&bg_color=030a1a&title_color=00bfff&text_color=c9d8f0" height="165" />
-</p>
-
----
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:001F54&height=120&section=footer&text=Let's%20Build%20the%20Future%20of%20Code&fontColor=E0E0E0&fontSize=20&fontAlignY=40&animation=twinkling" />
